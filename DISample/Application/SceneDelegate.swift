@@ -19,11 +19,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
             
-            let loginVC = LoginViewVC()
-            loginVC.viewModel = LoginViewModelImpl(authenServices: DIManagement.autheticationServices)
-            window.rootViewController = UINavigationController(rootViewController: loginVC)
-            self.window = window
-            window.makeKeyAndVisible()
+//            let loginVC = LoginViewVC()
+//            loginVC.viewModel = LoginViewModelImpl(authenServices: DIManagement.autheticationServices)
+//            window.rootViewController = UINavigationController(rootViewController: loginVC)
+//            self.window = window
+//            window.makeKeyAndVisible()
         }
     }
     

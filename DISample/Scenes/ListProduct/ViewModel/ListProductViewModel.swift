@@ -14,19 +14,22 @@ protocol ListProductViewModel {
 struct ListProductViewModelImpl: ListProductViewModel {
 
     private var listProductServices:ListProductServices
-    private var authenServices: AuthenticationServices
+//    private var authenServices: AuthenticationServices
     
-    init(productServices: ListProductServices,authenServices: AuthenticationServices) {
+//    init(productServices: ListProductServices,authenServices: AuthenticationServices) {
+//        self.listProductServices = productServices
+//        self.authenServices = authenServices
+//    }
+    init(productServices: ListProductServices) {
         self.listProductServices = productServices
-        self.authenServices = authenServices
     }
     func fetchListProduct() {
         self.listProductServices.fetchListProduct { result in
             // Todo
         }
     }
-    func getAccountDetail() {
-        self.authenServices.getAccountDetail(userId: "")
-    }
+//    func getAccountDetail() {
+//        self.authenServices.getAccountDetail(userId: "")
+//    }
 
 }

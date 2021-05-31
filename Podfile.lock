@@ -1,0 +1,16 @@
+PODS:
+  - LoginFramwork (0.0.1)
+
+DEPENDENCIES:
+  - LoginFramwork (from `./Submodule`)
+
+EXTERNAL SOURCES:
+  LoginFramwork:
+    :path: "./Submodule"
+
+SPEC CHECKSUMS:
+  LoginFramwork: ccca3cef21b26c28aa3053c42a302679196007e3
+
+PODFILE CHECKSUM: 435799150117f297182282d7952863617ac56cd6
+
+COCOAPODS: 1.10.0
