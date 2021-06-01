@@ -6,9 +6,10 @@
 //
 
 import Foundation
+import LoginFramwork
 class DIManagement {
     
     static let productServices = ListProductServices()
-//    static let autheticationServices = AuthenticationServices()
+    static let autheticationServices = AuthenticationServices()
     
 }

@@ -8,7 +8,6 @@ target 'DISample' do
   # Pods for DISample
    pod 'LoginFramwork', :path => './Submodule'
 
-
   target 'DISampleTests' do
     inherit! :search_paths
     # Pods for testing

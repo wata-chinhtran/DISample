@@ -1,6 +1,3 @@
-[submodule "Submodules"]
-	path = Submodules/LoginModule
-	url = https://github.com/phoenixit99/FirstModular.git
 [submodule "Submodule"]
 	path = Submodule
 	url = https://github.com/phoenixit99/FirstModular.git
