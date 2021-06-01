@@ -22,8 +22,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             
             let loginVC = LoginViewVC()
             loginVC.viewModel = LoginViewModelImpl(authenServices: DIManagement.autheticationServices)
-            loginVC.view.backgroundColor = .red
             window.rootViewController = UINavigationController(rootViewController: loginVC)
+            
             self.window = window
             window.makeKeyAndVisible()
         }

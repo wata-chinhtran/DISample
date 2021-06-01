@@ -21,6 +21,8 @@
 		18AF65032663EB9700CB2F3B /* ListProductServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF65022663EB9700CB2F3B /* ListProductServices.swift */; };
 		18AF65062663ED1000CB2F3B /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF65052663ED1000CB2F3B /* ProductModel.swift */; };
 		18AF65132663F83A00CB2F3B /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF65122663F83A00CB2F3B /* Navigator.swift */; };
+		18FA84E6266697EA0047AA6E /* LoginFramwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FA84E3266697B50047AA6E /* LoginFramwork.framework */; };
+		18FA84E7266697EA0047AA6E /* LoginFramwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18FA84E3266697B50047AA6E /* LoginFramwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3DB051229DC8DAB8ACD64263 /* Pods_DISampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A08B5535464FB53977F24C /* Pods_DISampleTests.framework */; };
 		6F01340E9088895CCD032A58 /* Pods_DISample_DISampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B800306D2A80E31EE5614479 /* Pods_DISample_DISampleUITests.framework */; };
 		DAEC8E7C90354130E1308684 /* Pods_DISample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EAC2D78D147B938C19AACF /* Pods_DISample.framework */; };
@@ -41,16 +43,16 @@
 			remoteGlobalIDString = 18AF64BB2663D82F00CB2F3B;
 			remoteInfo = DISample;
 		};
-		18FA84C726668FC50047AA6E /* PBXContainerItemProxy */ = {
+		18FA84E2266697B50047AA6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 18FA84C226668FC50047AA6E /* LoginFramwork.xcodeproj */;
+			containerPortal = 18FA84DD266697B50047AA6E /* LoginFramwork.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 18035E00266539A700821F03;
 			remoteInfo = LoginFramwork;
 		};
-		18FA84C926668FC50047AA6E /* PBXContainerItemProxy */ = {
+		18FA84E4266697B50047AA6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 18FA84C226668FC50047AA6E /* LoginFramwork.xcodeproj */;
+			containerPortal = 18FA84DD266697B50047AA6E /* LoginFramwork.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 18035E09266539A700821F03;
 			remoteInfo = LoginFramworkTests;
@@ -64,6 +66,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				18FA84E7266697EA0047AA6E /* LoginFramwork.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,7 +95,7 @@
 		18AF65022663EB9700CB2F3B /* ListProductServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProductServices.swift; sourceTree = "<group>"; };
 		18AF65052663ED1000CB2F3B /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		18AF65122663F83A00CB2F3B /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
-		18FA84C226668FC50047AA6E /* LoginFramwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LoginFramwork.xcodeproj; path = Submodule/LoginFramwork.xcodeproj; sourceTree = SOURCE_ROOT; };
+		18FA84DD266697B50047AA6E /* LoginFramwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LoginFramwork.xcodeproj; path = Submodule/LoginFramwork.xcodeproj; sourceTree = SOURCE_ROOT; };
 		1C3FC9BCACC23A259979480C /* Pods-DISample-DISampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DISample-DISampleUITests.release.xcconfig"; path = "Target Support Files/Pods-DISample-DISampleUITests/Pods-DISample-DISampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2C0777DF73C2D35DC2F76455 /* Pods-DISampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DISampleTests.release.xcconfig"; path = "Target Support Files/Pods-DISampleTests/Pods-DISampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		31EAC2D78D147B938C19AACF /* Pods_DISample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DISample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +113,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAEC8E7C90354130E1308684 /* Pods_DISample.framework in Frameworks */,
+				18FA84E6266697EA0047AA6E /* LoginFramwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +161,7 @@
 		18AF64BE2663D82F00CB2F3B /* DISample */ = {
 			isa = PBXGroup;
 			children = (
-				18FA84C226668FC50047AA6E /* LoginFramwork.xcodeproj */,
+				18FA84DD266697B50047AA6E /* LoginFramwork.xcodeproj */,
 				18AF65002663EB7E00CB2F3B /* Networking */,
 				18AF64F22663E62500CB2F3B /* Application */,
 				18AF64EF2663DC3400CB2F3B /* Dependencies */,
@@ -276,11 +280,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		18FA84C326668FC50047AA6E /* Products */ = {
+		18FA84DE266697B50047AA6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18FA84C826668FC50047AA6E /* LoginFramwork.framework */,
-				18FA84CA26668FC50047AA6E /* LoginFramworkTests.xctest */,
+				18FA84E3266697B50047AA6E /* LoginFramwork.framework */,
+				18FA84E5266697B50047AA6E /* LoginFramworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -393,8 +397,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 18FA84C326668FC50047AA6E /* Products */;
-					ProjectRef = 18FA84C226668FC50047AA6E /* LoginFramwork.xcodeproj */;
+					ProductGroup = 18FA84DE266697B50047AA6E /* Products */;
+					ProjectRef = 18FA84DD266697B50047AA6E /* LoginFramwork.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -407,18 +411,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		18FA84C826668FC50047AA6E /* LoginFramwork.framework */ = {
+		18FA84E3266697B50047AA6E /* LoginFramwork.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = LoginFramwork.framework;
-			remoteRef = 18FA84C726668FC50047AA6E /* PBXContainerItemProxy */;
+			remoteRef = 18FA84E2266697B50047AA6E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		18FA84CA26668FC50047AA6E /* LoginFramworkTests.xctest */ = {
+		18FA84E5266697B50047AA6E /* LoginFramworkTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = LoginFramworkTests.xctest;
-			remoteRef = 18FA84C926668FC50047AA6E /* PBXContainerItemProxy */;
+			remoteRef = 18FA84E4266697B50047AA6E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
