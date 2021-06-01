@@ -15,15 +15,10 @@
 		18AF64D72663D83000CB2F3B /* DISampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF64D62663D83000CB2F3B /* DISampleTests.swift */; };
 		18AF64E22663D83100CB2F3B /* DISampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF64E12663D83100CB2F3B /* DISampleUITests.swift */; };
 		18AF64F12663DC4F00CB2F3B /* DIManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF64F02663DC4F00CB2F3B /* DIManagement.swift */; };
-		18AF64FA2663E93300CB2F3B /* ListProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF64F82663E93300CB2F3B /* ListProductVC.swift */; };
-		18AF64FB2663E93300CB2F3B /* ListProductVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AF64F92663E93300CB2F3B /* ListProductVC.xib */; };
-		18AF64FF2663EB6100CB2F3B /* ListProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF64FE2663EB6100CB2F3B /* ListProductViewModel.swift */; };
-		18AF65032663EB9700CB2F3B /* ListProductServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF65022663EB9700CB2F3B /* ListProductServices.swift */; };
-		18AF65062663ED1000CB2F3B /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF65052663ED1000CB2F3B /* ProductModel.swift */; };
 		18AF65132663F83A00CB2F3B /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF65122663F83A00CB2F3B /* Navigator.swift */; };
-		18FA84E6266697EA0047AA6E /* LoginFramwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FA84E3266697B50047AA6E /* LoginFramwork.framework */; };
-		18FA84E7266697EA0047AA6E /* LoginFramwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18FA84E3266697B50047AA6E /* LoginFramwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		18FA84EA266699AD0047AA6E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA84E9266699AD0047AA6E /* HomeVC.swift */; };
+		18FA851E2666A0E60047AA6E /* LoginFramwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FA85152666A0D80047AA6E /* LoginFramwork.framework */; };
+		18FA851F2666A0E60047AA6E /* LoginFramwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18FA85152666A0D80047AA6E /* LoginFramwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3DB051229DC8DAB8ACD64263 /* Pods_DISampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A08B5535464FB53977F24C /* Pods_DISampleTests.framework */; };
 		6F01340E9088895CCD032A58 /* Pods_DISample_DISampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B800306D2A80E31EE5614479 /* Pods_DISample_DISampleUITests.framework */; };
 		DAEC8E7C90354130E1308684 /* Pods_DISample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EAC2D78D147B938C19AACF /* Pods_DISample.framework */; };
@@ -44,16 +39,16 @@
 			remoteGlobalIDString = 18AF64BB2663D82F00CB2F3B;
 			remoteInfo = DISample;
 		};
-		18FA84E2266697B50047AA6E /* PBXContainerItemProxy */ = {
+		18FA85142666A0D80047AA6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 18FA84DD266697B50047AA6E /* LoginFramwork.xcodeproj */;
+			containerPortal = 18FA850F2666A0D80047AA6E /* LoginFramwork.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 18035E00266539A700821F03;
 			remoteInfo = LoginFramwork;
 		};
-		18FA84E4266697B50047AA6E /* PBXContainerItemProxy */ = {
+		18FA85162666A0D80047AA6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 18FA84DD266697B50047AA6E /* LoginFramwork.xcodeproj */;
+			containerPortal = 18FA850F2666A0D80047AA6E /* LoginFramwork.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 18035E09266539A700821F03;
 			remoteInfo = LoginFramworkTests;
@@ -67,7 +62,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				18FA84E7266697EA0047AA6E /* LoginFramwork.framework in Embed Frameworks */,
+				18FA851F2666A0E60047AA6E /* LoginFramwork.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,14 +85,9 @@
 		18AF64E12663D83100CB2F3B /* DISampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DISampleUITests.swift; sourceTree = "<group>"; };
 		18AF64E32663D83100CB2F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18AF64F02663DC4F00CB2F3B /* DIManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIManagement.swift; sourceTree = "<group>"; };
-		18AF64F82663E93300CB2F3B /* ListProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProductVC.swift; sourceTree = "<group>"; };
-		18AF64F92663E93300CB2F3B /* ListProductVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListProductVC.xib; sourceTree = "<group>"; };
-		18AF64FE2663EB6100CB2F3B /* ListProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProductViewModel.swift; sourceTree = "<group>"; };
-		18AF65022663EB9700CB2F3B /* ListProductServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProductServices.swift; sourceTree = "<group>"; };
-		18AF65052663ED1000CB2F3B /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		18AF65122663F83A00CB2F3B /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
-		18FA84DD266697B50047AA6E /* LoginFramwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LoginFramwork.xcodeproj; path = Submodule/LoginFramwork.xcodeproj; sourceTree = SOURCE_ROOT; };
 		18FA84E9266699AD0047AA6E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		18FA850F2666A0D80047AA6E /* LoginFramwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LoginFramwork.xcodeproj; path = FirsModulars/LoginModule/LoginFramwork.xcodeproj; sourceTree = SOURCE_ROOT; };
 		1C3FC9BCACC23A259979480C /* Pods-DISample-DISampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DISample-DISampleUITests.release.xcconfig"; path = "Target Support Files/Pods-DISample-DISampleUITests/Pods-DISample-DISampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2C0777DF73C2D35DC2F76455 /* Pods-DISampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DISampleTests.release.xcconfig"; path = "Target Support Files/Pods-DISampleTests/Pods-DISampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		31EAC2D78D147B938C19AACF /* Pods_DISample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DISample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,7 +105,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAEC8E7C90354130E1308684 /* Pods_DISample.framework in Frameworks */,
-				18FA84E6266697EA0047AA6E /* LoginFramwork.framework in Frameworks */,
+				18FA851E2666A0E60047AA6E /* LoginFramwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +153,7 @@
 		18AF64BE2663D82F00CB2F3B /* DISample */ = {
 			isa = PBXGroup;
 			children = (
-				18FA84DD266697B50047AA6E /* LoginFramwork.xcodeproj */,
+				18FA850F2666A0D80047AA6E /* LoginFramwork.xcodeproj */,
 				18AF65002663EB7E00CB2F3B /* Networking */,
 				18AF64F22663E62500CB2F3B /* Application */,
 				18AF64EF2663DC3400CB2F3B /* Dependencies */,
@@ -172,7 +162,6 @@
 				18AF64C82663D83000CB2F3B /* Assets.xcassets */,
 				18AF64CA2663D83000CB2F3B /* LaunchScreen.storyboard */,
 				18AF64CD2663D83000CB2F3B /* Info.plist */,
-				18FA84E9266699AD0047AA6E /* HomeVC.swift */,
 			);
 			path = DISample;
 			sourceTree = "<group>";
@@ -216,60 +205,16 @@
 		18AF64F32663E63000CB2F3B /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				18AF64F52663E8ED00CB2F3B /* ListProduct */,
+				18FA84E9266699AD0047AA6E /* HomeVC.swift */,
 			);
 			path = Scenes;
-			sourceTree = "<group>";
-		};
-		18AF64F52663E8ED00CB2F3B /* ListProduct */ = {
-			isa = PBXGroup;
-			children = (
-				18AF65042663ED0200CB2F3B /* Model */,
-				18AF64FD2663EB4A00CB2F3B /* View */,
-				18AF64FC2663EB4200CB2F3B /* ViewModel */,
-			);
-			path = ListProduct;
-			sourceTree = "<group>";
-		};
-		18AF64FC2663EB4200CB2F3B /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				18AF64FE2663EB6100CB2F3B /* ListProductViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		18AF64FD2663EB4A00CB2F3B /* View */ = {
-			isa = PBXGroup;
-			children = (
-				18AF64F82663E93300CB2F3B /* ListProductVC.swift */,
-				18AF64F92663E93300CB2F3B /* ListProductVC.xib */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		18AF65002663EB7E00CB2F3B /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				18AF65012663EB8800CB2F3B /* Services */,
 			);
 			path = Networking;
-			sourceTree = "<group>";
-		};
-		18AF65012663EB8800CB2F3B /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				18AF65022663EB9700CB2F3B /* ListProductServices.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		18AF65042663ED0200CB2F3B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				18AF65052663ED1000CB2F3B /* ProductModel.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		18D6A734266497E000D84F5E /* Frameworks */ = {
@@ -283,11 +228,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		18FA84DE266697B50047AA6E /* Products */ = {
+		18FA85102666A0D80047AA6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18FA84E3266697B50047AA6E /* LoginFramwork.framework */,
-				18FA84E5266697B50047AA6E /* LoginFramworkTests.xctest */,
+				18FA85152666A0D80047AA6E /* LoginFramwork.framework */,
+				18FA85172666A0D80047AA6E /* LoginFramworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -400,8 +345,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 18FA84DE266697B50047AA6E /* Products */;
-					ProjectRef = 18FA84DD266697B50047AA6E /* LoginFramwork.xcodeproj */;
+					ProductGroup = 18FA85102666A0D80047AA6E /* Products */;
+					ProjectRef = 18FA850F2666A0D80047AA6E /* LoginFramwork.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -414,18 +359,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		18FA84E3266697B50047AA6E /* LoginFramwork.framework */ = {
+		18FA85152666A0D80047AA6E /* LoginFramwork.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = LoginFramwork.framework;
-			remoteRef = 18FA84E2266697B50047AA6E /* PBXContainerItemProxy */;
+			remoteRef = 18FA85142666A0D80047AA6E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		18FA84E5266697B50047AA6E /* LoginFramworkTests.xctest */ = {
+		18FA85172666A0D80047AA6E /* LoginFramworkTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = LoginFramworkTests.xctest;
-			remoteRef = 18FA84E4266697B50047AA6E /* PBXContainerItemProxy */;
+			remoteRef = 18FA85162666A0D80047AA6E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -435,7 +380,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18AF64FB2663E93300CB2F3B /* ListProductVC.xib in Resources */,
 				18AF64CC2663D83000CB2F3B /* LaunchScreen.storyboard in Resources */,
 				18AF64C92663D83000CB2F3B /* Assets.xcassets in Resources */,
 				18AF64C72663D82F00CB2F3B /* Main.storyboard in Resources */,
@@ -532,14 +476,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18AF64FA2663E93300CB2F3B /* ListProductVC.swift in Sources */,
-				18AF65032663EB9700CB2F3B /* ListProductServices.swift in Sources */,
 				18AF64C02663D82F00CB2F3B /* AppDelegate.swift in Sources */,
 				18FA84EA266699AD0047AA6E /* HomeVC.swift in Sources */,
 				18AF64F12663DC4F00CB2F3B /* DIManagement.swift in Sources */,
-				18AF64FF2663EB6100CB2F3B /* ListProductViewModel.swift in Sources */,
 				18AF64C22663D82F00CB2F3B /* SceneDelegate.swift in Sources */,
-				18AF65062663ED1000CB2F3B /* ProductModel.swift in Sources */,
 				18AF65132663F83A00CB2F3B /* Navigator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
