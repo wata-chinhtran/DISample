@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-DISample-DISampleUITests/Pods-DISample-DISampleUITests-frameworks.sh
-${BUILT_PRODUCTS_DIR}/LoginModule/LoginModule.framework
+${BUILT_PRODUCTS_DIR}/LoginFramwork/LoginFramwork.framework
+${BUILT_PRODUCTS_DIR}/ProductFramework/ProductFramework.framework

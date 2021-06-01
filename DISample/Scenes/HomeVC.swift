@@ -7,6 +7,7 @@
 
 import UIKit
 import LoginFramwork
+import ProductFramework
 
 class HomeVC: UIViewController {
 
@@ -14,12 +15,9 @@ class HomeVC: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        let loginVC = LoginViewVC()
-        loginVC.viewModel = LoginViewModelImpl(authenServices: DIManagement.autheticationServices)
-        loginVC.doLoginAction(userName: "test", password: "test") { token in
-            print("token ==", token)
-        }
         
+        
+       
         
     }
     

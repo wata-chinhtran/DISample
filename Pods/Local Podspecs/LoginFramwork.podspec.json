@@ -12,7 +12,7 @@
     "git": ""
   },
   "source_files": [
-    "LoginModule.podspec",
+    "LoginFramwork.podspec",
     "KzApis/Source/**/*.{h,m,swift}"
   ],
   "exclude_files": "Classes/Exclude",
