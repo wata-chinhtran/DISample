@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18035E32266545C300821F03 /* Submodule in Resources */ = {isa = PBXBuildFile; fileRef = 18035E31266545C300821F03 /* Submodule */; };
 		18AF64C02663D82F00CB2F3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF64BF2663D82F00CB2F3B /* AppDelegate.swift */; };
 		18AF64C22663D82F00CB2F3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF64C12663D82F00CB2F3B /* SceneDelegate.swift */; };
 		18AF64C72663D82F00CB2F3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AF64C52663D82F00CB2F3B /* Main.storyboard */; };
@@ -46,7 +45,6 @@
 
 /* Begin PBXFileReference section */
 		18035E2D2665427C00821F03 /* LoginModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LoginModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18035E31266545C300821F03 /* Submodule */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Submodule; sourceTree = SOURCE_ROOT; };
 		18AF64BC2663D82F00CB2F3B /* DISample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DISample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AF64BF2663D82F00CB2F3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18AF64C12663D82F00CB2F3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,7 +129,6 @@
 		18AF64BE2663D82F00CB2F3B /* DISample */ = {
 			isa = PBXGroup;
 			children = (
-				18035E31266545C300821F03 /* Submodule */,
 				18AF65002663EB7E00CB2F3B /* Networking */,
 				18AF64F22663E62500CB2F3B /* Application */,
 				18AF64EF2663DC3400CB2F3B /* Dependencies */,
@@ -371,7 +368,6 @@
 			files = (
 				18AF64FB2663E93300CB2F3B /* ListProductVC.xib in Resources */,
 				18AF64CC2663D83000CB2F3B /* LaunchScreen.storyboard in Resources */,
-				18035E32266545C300821F03 /* Submodule in Resources */,
 				18AF64C92663D83000CB2F3B /* Assets.xcassets in Resources */,
 				18AF64C72663D82F00CB2F3B /* Main.storyboard in Resources */,
 			);
