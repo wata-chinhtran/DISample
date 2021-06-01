@@ -23,6 +23,7 @@
 		18AF65132663F83A00CB2F3B /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF65122663F83A00CB2F3B /* Navigator.swift */; };
 		18FA84E6266697EA0047AA6E /* LoginFramwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FA84E3266697B50047AA6E /* LoginFramwork.framework */; };
 		18FA84E7266697EA0047AA6E /* LoginFramwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18FA84E3266697B50047AA6E /* LoginFramwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		18FA84EA266699AD0047AA6E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA84E9266699AD0047AA6E /* HomeVC.swift */; };
 		3DB051229DC8DAB8ACD64263 /* Pods_DISampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A08B5535464FB53977F24C /* Pods_DISampleTests.framework */; };
 		6F01340E9088895CCD032A58 /* Pods_DISample_DISampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B800306D2A80E31EE5614479 /* Pods_DISample_DISampleUITests.framework */; };
 		DAEC8E7C90354130E1308684 /* Pods_DISample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31EAC2D78D147B938C19AACF /* Pods_DISample.framework */; };
@@ -96,6 +97,7 @@
 		18AF65052663ED1000CB2F3B /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		18AF65122663F83A00CB2F3B /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
 		18FA84DD266697B50047AA6E /* LoginFramwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LoginFramwork.xcodeproj; path = Submodule/LoginFramwork.xcodeproj; sourceTree = SOURCE_ROOT; };
+		18FA84E9266699AD0047AA6E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		1C3FC9BCACC23A259979480C /* Pods-DISample-DISampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DISample-DISampleUITests.release.xcconfig"; path = "Target Support Files/Pods-DISample-DISampleUITests/Pods-DISample-DISampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2C0777DF73C2D35DC2F76455 /* Pods-DISampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DISampleTests.release.xcconfig"; path = "Target Support Files/Pods-DISampleTests/Pods-DISampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		31EAC2D78D147B938C19AACF /* Pods_DISample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DISample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -170,6 +172,7 @@
 				18AF64C82663D83000CB2F3B /* Assets.xcassets */,
 				18AF64CA2663D83000CB2F3B /* LaunchScreen.storyboard */,
 				18AF64CD2663D83000CB2F3B /* Info.plist */,
+				18FA84E9266699AD0047AA6E /* HomeVC.swift */,
 			);
 			path = DISample;
 			sourceTree = "<group>";
@@ -532,6 +535,7 @@
 				18AF64FA2663E93300CB2F3B /* ListProductVC.swift in Sources */,
 				18AF65032663EB9700CB2F3B /* ListProductServices.swift in Sources */,
 				18AF64C02663D82F00CB2F3B /* AppDelegate.swift in Sources */,
+				18FA84EA266699AD0047AA6E /* HomeVC.swift in Sources */,
 				18AF64F12663DC4F00CB2F3B /* DIManagement.swift in Sources */,
 				18AF64FF2663EB6100CB2F3B /* ListProductViewModel.swift in Sources */,
 				18AF64C22663D82F00CB2F3B /* SceneDelegate.swift in Sources */,

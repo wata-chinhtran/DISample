@@ -6,15 +6,10 @@
 //
 
 import UIKit
-import LoginFramwork
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-//        vc.test()
-      let loginVC = LoginViewVC()
-        loginVC.viewModel = LoginViewModelImpl(authenServices: DIManagement.autheticationServices)
         return true
     }
 
