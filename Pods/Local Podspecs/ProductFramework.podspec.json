@@ -1,0 +1,25 @@
+{
+  "name": "ProductFramework",
+  "version": "0.0.1",
+  "summary": "ProductFramework is the network layer to access services",
+  "description": "ProductFramework.podspec is the network layer to access ProductFramework.podspec remote data and services",
+  "homepage": "https://hoanguit@gmail.com/",
+  "license": "MIT",
+  "authors": {
+    "Nguyen Hoang": "hoanguit@gmail.com"
+  },
+  "source": {
+    "git": ""
+  },
+  "source_files": [
+    "ProductFramework.podspec",
+    "KzApis/Source/**/*.{h,m,swift}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}
