@@ -16,6 +16,7 @@
 		18AF64E22663D83100CB2F3B /* DISampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF64E12663D83100CB2F3B /* DISampleUITests.swift */; };
 		18AF64F12663DC4F00CB2F3B /* DIManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF64F02663DC4F00CB2F3B /* DIManagement.swift */; };
 		18AF65132663F83A00CB2F3B /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AF65122663F83A00CB2F3B /* Navigator.swift */; };
+		18CAF164266718EB00E0635E /* AppSharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAF163266718EB00E0635E /* AppSharing.swift */; };
 		18FA84EA266699AD0047AA6E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA84E9266699AD0047AA6E /* HomeVC.swift */; };
 		18FA85552666A5AD0047AA6E /* LoginFramwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FA854C2666A5940047AA6E /* LoginFramwork.framework */; };
 		18FA85562666A5AD0047AA6E /* LoginFramwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 18FA854C2666A5940047AA6E /* LoginFramwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -96,6 +97,7 @@
 		18AF64E32663D83100CB2F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18AF64F02663DC4F00CB2F3B /* DIManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIManagement.swift; sourceTree = "<group>"; };
 		18AF65122663F83A00CB2F3B /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		18CAF163266718EB00E0635E /* AppSharing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSharing.swift; sourceTree = "<group>"; };
 		18FA84E9266699AD0047AA6E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		18FA85462666A5940047AA6E /* LoginFramwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LoginFramwork.xcodeproj; path = FirsModulars/LoginModule/LoginFramwork.xcodeproj; sourceTree = SOURCE_ROOT; };
 		18FA854F2666A5990047AA6E /* ProductFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ProductFramework.xcodeproj; path = SecondModular/ProductModule/ProductFramework.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -202,6 +204,7 @@
 			children = (
 				18AF64F02663DC4F00CB2F3B /* DIManagement.swift */,
 				18AF65122663F83A00CB2F3B /* Navigator.swift */,
+				18CAF163266718EB00E0635E /* AppSharing.swift */,
 			);
 			path = Dependencies;
 			sourceTree = "<group>";
@@ -508,6 +511,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CAF164266718EB00E0635E /* AppSharing.swift in Sources */,
 				18AF64C02663D82F00CB2F3B /* AppDelegate.swift in Sources */,
 				18FA84EA266699AD0047AA6E /* HomeVC.swift in Sources */,
 				18AF64F12663DC4F00CB2F3B /* DIManagement.swift in Sources */,

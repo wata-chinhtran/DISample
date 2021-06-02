@@ -13,23 +13,29 @@ class HomeVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-        
-        
-       
-        
+           
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func viewAction(_ sender: Any) {
+        
+        let loginVC = LoginViewVC()
+        loginVC.delegate = self
+        loginVC.viewModel = LoginViewModelImpl(authenServices: DIManagement.autheticationServices)
+        self.present(loginVC, animated: true, completion: nil)
     }
-    */
-
+    
+    private func showListProduct() {
+        
+        let productVC = ListProductVC()
+        productVC.viewModel = ListProductViewModelImpl(token: AppSharing.instance.tokenApp, productServices: DIManagement.productServices)
+        self.present(productVC, animated: true, completion: nil)
+        
+    }
+}
+extension HomeVC: LoginDelegate {
+    func loginCallBack(token: String) {
+        // handle call back login success
+        AppSharing.instance.tokenApp = token
+        self.showListProduct()
+    }
 }
