@@ -10,3 +10,5 @@ How's to install:
 #4 In main Project -> General -> Target -> Framework,Libraries, and Embedded content -> Add (LoginFramework & ProductFramework)</br>
 
 Happy Coding
+
+<img src= "https://github.com/phoenixit99/DISample/blob/master/di_sample.png" />
