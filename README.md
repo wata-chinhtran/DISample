@@ -5,8 +5,7 @@ DISample is internal project for support build modular architecture.It's inject 
 How's to install: 
 
 #1. Clone main source:https://github.com/phoenixit99/DISample.git </br>
-#2. git submodule init </br>
-#3  git submodule update --init --recursive  </br>
+#2  git submodule update --init --recursive  </br>
 
 Happy Coding
 
