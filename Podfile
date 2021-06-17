@@ -4,10 +4,9 @@
 target 'DISample' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
-#  pod "ProductFramework", :path => './SecondModular/ProductModule'
-#  pod 'LoginFramwork', :path => './FirsModulars/LoginModule'
-#  
+  
+  pod 'DINetworking', :path => './Networking'
+  
   target 'DISampleTests' do
     inherit! :search_paths
     # Pods for testing

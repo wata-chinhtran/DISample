@@ -8,3 +8,6 @@
 [submodule "FirsModulars"]
 	path = FirsModulars
 	url = https://github.com/phoenixit99/FirstModular.git
+[submodule "Networking"]
+	path = Networking
+	url = https://github.com/phoenixit99/DINetworking.git

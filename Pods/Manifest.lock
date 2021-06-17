@@ -1,3 +1,29 @@
-PODFILE CHECKSUM: c159a0a0942d88ba095a78bbbef54d1622276832
+PODS:
+  - Alamofire (5.4.3)
+  - DINetworking (1.0.0):
+    - Moya
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+
+DEPENDENCIES:
+  - DINetworking (from `./Networking`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Moya
+
+EXTERNAL SOURCES:
+  DINetworking:
+    :path: "./Networking"
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  DINetworking: 17d38fcfa3cd69c7d45feea25e9a4f0f47aa91a0
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+
+PODFILE CHECKSUM: c68c00b734c1c367ef1d7fa023e30264ae6bf9c8
 
 COCOAPODS: 1.10.0

@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import LoginFramwork
+//import LoginFramwork
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
