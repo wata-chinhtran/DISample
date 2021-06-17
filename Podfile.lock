@@ -1,14 +1,20 @@
 PODS:
   - Alamofire (5.4.3)
+  - ClientFramework (1.0.0):
+    - Moya
   - DINetworking (1.0.0):
     - Moya
   - Moya (14.0.0):
     - Moya/Core (= 14.0.0)
   - Moya/Core (14.0.0):
     - Alamofire (~> 5.0)
+  - ProductFramework (1.0.0):
+    - Moya
 
 DEPENDENCIES:
+  - ClientFramework (from `./ServiceModules`)
   - DINetworking (from `./Networking`)
+  - ProductFramework (from `./ProductModules`)
 
 SPEC REPOS:
   trunk:
@@ -16,14 +22,20 @@ SPEC REPOS:
     - Moya
 
 EXTERNAL SOURCES:
+  ClientFramework:
+    :path: "./ServiceModules"
   DINetworking:
     :path: "./Networking"
+  ProductFramework:
+    :path: "./ProductModules"
 
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  ClientFramework: 02f56e35b4077a2d0ff2364811b29afb7b4b0bda
   DINetworking: 17d38fcfa3cd69c7d45feea25e9a4f0f47aa91a0
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  ProductFramework: 8c34cec872d667804ca850fd6fe1a7f29934c655
 
-PODFILE CHECKSUM: c68c00b734c1c367ef1d7fa023e30264ae6bf9c8
+PODFILE CHECKSUM: 6a214b54cda67b58a1c8cf5d8aa7166d3587c32c
 
 COCOAPODS: 1.10.0

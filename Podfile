@@ -6,6 +6,8 @@ target 'DISample' do
   use_frameworks!
   
   pod 'DINetworking', :path => './Networking'
+  pod "ProductFramework", :path => './ProductModules'
+  pod "ClientFramework", :path => './ServiceModules'
   
   target 'DISampleTests' do
     inherit! :search_paths

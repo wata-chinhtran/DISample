@@ -1,25 +1,29 @@
 {
-  "name": "LoginModule",
-  "version": "0.0.1",
-  "summary": "LoginModule is the network layer to access services",
-  "description": "LoginModule.podspec is the network layer to access LoginModule.podspec remote data and services",
-  "homepage": "https://hoanguit@gmail.com/",
-  "license": "MIT",
+  "name": "LoginFramwork",
+  "version": "1.0.0",
+  "summary": "Sample framework from blog post, not for real world use.Functional JSON parsing library for Swift.",
+  "homepage": "https://github.com/phoenixit99/LoginFramwork.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
   "authors": {
-    "Nguyen Hoang": "hoanguit@gmail.com"
+    "Hoang Nguyen": "hoanguit@gmail.com"
   },
+  "social_media_url": "https://github.com/phoenixit99/LoginFramwork.git",
   "source": {
-    "git": ""
+    "git": "https://github.com/phoenixit99/LoginFramwork.git",
+    "tag": "v1.0.0",
+    "submodules": true
   },
-  "source_files": [
-    "LoginModule.podspec",
-    "KzApis/Source/**/*.{h,m,swift}"
-  ],
-  "exclude_files": "Classes/Exclude",
+  "source_files": "LoginFramwork/**/*.{h,swift}",
+  "requires_arc": true,
   "platforms": {
-    "osx": null,
-    "ios": null,
-    "tvos": null,
-    "watchos": null
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "Moya": [
+
+    ]
   }
 }

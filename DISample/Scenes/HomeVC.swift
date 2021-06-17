@@ -7,6 +7,8 @@
 
 import UIKit
 import DINetworking
+import ProductFramework
+import ClientFramework
 
 class HomeVC: UIViewController {
     
@@ -20,32 +22,35 @@ class HomeVC: UIViewController {
     @IBAction func viewAction(_ sender: Any) {
         
         let networkManagement = NetworkManager.instance
+        networkManagement.setBaseUrl(baseUrl: "https://google.com")
         networkManagement.doLogin { (results) in
             var info = UserInfo()
             info.token = "xxxxxxx"
             NetworkManager.instance.setToken(token: info.token)
-        }
+            self.showClientList()
+       }
         
-//
-//        let loginVC = LoginViewVC.instance()
-//        loginVC.delegate = self
-//        loginVC.viewModel = LoginViewModelImpl(authenServices: DIManagement.autheticationServices)
-//        self.present(loginVC, animated: true, completion: nil)
-//
+    }
+    private func showClientList(){
+        
+        let loginVC = ClientViewVC()
+        loginVC.delegate = self
+        loginVC.viewModel = ClientViewModelImpl(authenServices: DIManagement.autheticationServices)
+        self.present(loginVC, animated: true, completion: nil)
     }
     
     private func showListProduct() {
         
-//        let productVC = ListProductVC()
-//        productVC.viewModel = ListProductViewModelImpl(token: AppSharing.instance.tokenApp, productServices: DIManagement.productServices)
-//        self.present(productVC, animated: true, completion: nil)
-        
+        let productVC = ListProductVC()
+        productVC.viewModel = ListProductViewModelImpl(token: AppSharing.instance.tokenApp, productServices: DIManagement.productServices)
+        productVC.modalPresentationStyle = .overFullScreen
+        self.showDetailViewController(productVC, sender: true)
     }
 }
-//extension HomeVC: LoginDelegate {
-//    func loginCallBack(token: String) {
-//        // handle call back login success
-//        AppSharing.instance.tokenApp = token
-//        self.showListProduct()
-//    }
-//}
+extension HomeVC: LoginDelegate {
+    func loginCallBack(token: String) {
+        // handle call back login success
+        AppSharing.instance.tokenApp = token
+        self.showListProduct()
+    }
+}

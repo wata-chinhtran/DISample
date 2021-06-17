@@ -2,12 +2,6 @@
 [submodule "Modules"]
 	path = Modules
 	url = https://github.com/phoenixit99/FirstModular.git
-[submodule "SecondModular"]
-	path = SecondModular
-	url = https://github.com/phoenixit99/SecondModular.git
-[submodule "FirsModulars"]
-	path = FirsModulars
-	url = https://github.com/phoenixit99/FirstModular.git
 [submodule "Networking"]
 	path = Networking
 	url = https://github.com/phoenixit99/DINetworking.git
