@@ -31,7 +31,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
-  ClientFramework: 02f56e35b4077a2d0ff2364811b29afb7b4b0bda
+  ClientFramework: e66dc80e47523ac8f7665e84f2d7a9230fefd9b9
   DINetworking: 17d38fcfa3cd69c7d45feea25e9a4f0f47aa91a0
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
   ProductFramework: 8c34cec872d667804ca850fd6fe1a7f29934c655
