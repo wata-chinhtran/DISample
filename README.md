@@ -6,6 +6,7 @@ How's to install:
 
 #1. Clone main source:https://github.com/phoenixit99/DISample.git </br>
 #2  git submodule update --init --recursive  </br>
+#3. Pod install </br>
 
 Happy Coding
 
