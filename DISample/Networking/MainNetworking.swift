@@ -12,6 +12,7 @@ import DINetworking
 public struct UserInfo: Codable {
     var userName:String = "text account"
     var token:String = "xxxxx"
+    var publicKey: String = ""
 }
 
 enum MainNetworkingAPI {
