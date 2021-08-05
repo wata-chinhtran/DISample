@@ -1,6 +1,0 @@
-${PODS_ROOT}/Target Support Files/Pods-DISample/Pods-DISample-frameworks.sh
-${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
-${BUILT_PRODUCTS_DIR}/ClientFramework/ClientFramework.framework
-${BUILT_PRODUCTS_DIR}/DINetworking/DINetworking.framework
-${BUILT_PRODUCTS_DIR}/Moya/Moya.framework
-${BUILT_PRODUCTS_DIR}/ProductFramework/ProductFramework.framework

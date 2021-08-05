@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:DISample.xcodeproj">
+      location = "group:/Users/JonnyChinhTran/Desktop/Wata_Projects/ModularExampleProj/MainModuleExample/MainModuleExample.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
