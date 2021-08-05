@@ -22,8 +22,5 @@ Happy Coding
 # The 3-steps removal process would then be:
 1. git submodule deinit -f -- {submodule_name}
 2. rm -rf .git/modules/{submodule_name}
-3. git rm -f {submodule_name}
-# Note: {submodule_name} (no trailing slash)
-
-# or, if you want to leave it in your working tree and have done step 0
-3.   git rm --cached {submodule_name}
+3. git rm -f {submodule_name} => Note: {submodule_name} (no trailing slash)
+4. git rm --cached {submodule_name}
