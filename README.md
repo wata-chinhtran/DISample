@@ -13,11 +13,11 @@ Happy Coding
 <img src= "https://github.com/phoenixit99/DISample/blob/master/di_sample.png" />
 
 # How's to setup project with submodules? Here is step by steps for setup:
-1/ Create a repo as Main module
-2/ Create file .gitmodules
-3/ Create some repos as Submodule
-4/ Add submodule with command line: "git submodule add <remote_url> <destination_folder>" refer at: https://devconnected.com/how-to-add-and-update-git-submodules/
-5/ Check submodule status with command line: "git ls-files --stage | grep 160000"
+1. Create a repo as Main module
+2. Create file .gitmodules
+3. Create some repos as Submodule
+4. Add submodule with command line: "git submodule add <remote_url> <destination_folder>" refer at: https://devconnected.com/how-to-add-and-update-git-submodules/
+5. Check submodule status with command line: "git ls-files --stage | grep 160000"
 
 # The 3-steps removal process would then be:
 1. git submodule deinit -f -- {submodule_name}
