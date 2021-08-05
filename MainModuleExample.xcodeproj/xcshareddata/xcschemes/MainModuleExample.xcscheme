@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "18AF64BB2663D82F00CB2F3B"
-               BuildableName = "DISample.app"
-               BlueprintName = "DISample"
-               ReferencedContainer = "container:DISample.xcodeproj">
+               BuildableName = "MainModuleExample.app"
+               BlueprintName = "MainModuleExample"
+               ReferencedContainer = "container:MainModuleExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,26 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18AF64D12663D83000CB2F3B"
-               BuildableName = "DISampleTests.xctest"
-               BlueprintName = "DISampleTests"
-               ReferencedContainer = "container:DISample.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18AF64DC2663D83100CB2F3B"
-               BuildableName = "DISampleUITests.xctest"
-               BlueprintName = "DISampleUITests"
-               ReferencedContainer = "container:DISample.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -65,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "18AF64BB2663D82F00CB2F3B"
-            BuildableName = "DISample.app"
-            BlueprintName = "DISample"
-            ReferencedContainer = "container:DISample.xcodeproj">
+            BuildableName = "MainModuleExample.app"
+            BlueprintName = "MainModuleExample"
+            ReferencedContainer = "container:MainModuleExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -82,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "18AF64BB2663D82F00CB2F3B"
-            BuildableName = "DISample.app"
-            BlueprintName = "DISample"
-            ReferencedContainer = "container:DISample.xcodeproj">
+            BuildableName = "MainModuleExample.app"
+            BlueprintName = "MainModuleExample"
+            ReferencedContainer = "container:MainModuleExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
