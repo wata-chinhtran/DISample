@@ -4,9 +4,9 @@ DISample is internal project for support build modular architecture.It's inject 
 
 How's to install: 
 
-#1. Clone main source:https://github.com/wata-chinhtran/MainModuleExample.git </br>
-#2  git submodule update --init --recursive  </br>
-#3. Pod install </br>
+1. Clone main source:https://github.com/wata-chinhtran/MainModuleExample.git
+2. git submodule update --init --recursive , if you want change to latest commit of submodule then use "git submodule update --remote --merge"
+3. Pod install
 
 Happy Coding
 
