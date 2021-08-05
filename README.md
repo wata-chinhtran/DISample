@@ -24,3 +24,6 @@ Happy Coding
 2. rm -rf .git/modules/{submodule_name}
 3. git rm -f {submodule_name} => Note: {submodule_name} (no trailing slash)
 4. git rm --cached {submodule_name}
+
+# How's to install submodule via cocoapods:
+=> pod '{submodule_name}', :path => '{submodule_path}'
