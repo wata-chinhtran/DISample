@@ -1,9 +1,9 @@
 [submodule "Networking"]
 	path = Networking
-	url = https://github.com/phoenixit99/DINetworking.git
+	url = https://github.com/wata-chinhtran/DINetworking.git
 [submodule "ProductModules"]
 	path = ProductModules
-	url = https://github.com/phoenixit99/SecondModular.git
+	url = https://github.com/wata-chinhtrann/SecondModular.git
 [submodule "ServiceModules"]
 	path = ServiceModules
-	url = https://github.com/phoenixit99/FirstModular.git
+	url = https://github.com/wata-chinhtran/FirstModular.git

@@ -1,0 +1,6 @@
+framework module DINetworking {
+  umbrella header "DINetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

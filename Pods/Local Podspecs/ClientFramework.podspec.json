@@ -1,8 +1,8 @@
 {
-  "name": "ProductFramework",
+  "name": "ClientFramework",
   "version": "1.0.0",
   "summary": "Sample framework from blog post, not for real world use.Functional JSON parsing library for Swift.",
-  "homepage": "https://github.com/wata-chinhtran/FeatureModule.git",
+  "homepage": "https://github.com/wata-chinhtran/TestAddModule.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -10,13 +10,13 @@
   "authors": {
     "Chinh Tran": "chinh.tran@watasolutions.com"
   },
-  "social_media_url": "https://github.com/wata-chinhtran/FeatureModule.git",
+  "social_media_url": "https://github.com/wata-chinhtran/TestAddModule.git",
   "source": {
-    "git": "https://github.com/wata-chinhtran/FeatureModule.git",
+    "git": "https://github.com/wata-chinhtran/TestAddModule.git",
     "tag": "v1.0.0",
     "submodules": true
   },
-  "source_files": "ProductFramework/**/*.{h,swift}",
+  "source_files": "ClientFramework/**/*.{h,swift,xib}",
   "requires_arc": true,
   "platforms": {
     "ios": "10.0"
