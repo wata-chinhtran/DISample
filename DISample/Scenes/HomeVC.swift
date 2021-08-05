@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import DINetworking
+//import DINetworking
 
 class HomeVC: UIViewController {
     
@@ -38,15 +38,15 @@ class HomeVC: UIViewController {
             return
         }
         
-        let networkManagement = NetworkManager.instance
-        networkManagement.setBaseUrl(baseUrl: "https://google.com")
-        networkManagement.doLogin(user: userName, pass: password, completion: { (results) in
-            var info = UserInfo()
-            info.token = "xxxxxxx"
-//            should save token for use later
-            AppSharing.instance.tokenApp = info.token
-            self.showDetailVC()
-       })
+//        let networkManagement = NetworkManager.instance
+//        networkManagement.setBaseUrl(baseUrl: "https://google.com")
+//        networkManagement.doLogin(user: userName, pass: password, completion: { (results) in
+//            var info = UserInfo()
+//            info.token = "xxxxxxx"
+////            should save token for use later
+//            AppSharing.instance.tokenApp = info.token
+//            self.showDetailVC()
+//       })
     }
     private func showDetailVC() {
         let detailVC = ServicesDetailVC()

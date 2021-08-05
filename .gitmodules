@@ -1,9 +1,3 @@
-[submodule "CommonModule"]
-	path = ./CommonModule
+[submodule "Submodules/CommonModule"]
+	path = Submodules/CommonModule
 	url = https://github.com/wata-chinhtran/CommonModule.git
-[submodule "FeatureModule"]
-	path = ./FeatureModule
-	url = https://github.com/wata-chinhtran/FeatureModule.git
-[submodule "TestAddModule"]
-	path = ./TestAddModule
-	url = https://github.com/wata-chinhtran/TestAddModule.git

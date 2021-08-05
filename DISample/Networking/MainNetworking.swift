@@ -6,8 +6,8 @@
 //
 
 import UIKit
-import Moya
-import DINetworking
+//import Moya
+//import DINetworking
 
 public struct UserInfo: Codable {
     var userName:String = "text account"
@@ -18,27 +18,28 @@ public struct UserInfo: Codable {
 enum MainNetworkingAPI {
     case doLogin
 }
-extension MainNetworkingAPI: BaseRequest {
-    
-    public var path: String {
-      switch self {
-      case .doLogin: return "/login"
-      }
-    }
-    
-    public var method: Moya.Method {
-      switch self {
-        case .doLogin: return .get
-      }
-    }
-    
-}
 
-extension NetworkManager {
-    
-    func doLogin(user: String,pass: String,completion: @escaping (Result<UserInfo, Error>) -> ()) {
-        request(target: MultiTarget(MainNetworkingAPI.doLogin), completion: { (results) in
-            completion(results)
-        })
-      }
-}
+//extension MainNetworkingAPI: BaseRequest {
+//    
+//    public var path: String {
+//      switch self {
+//      case .doLogin: return "/login"
+//      }
+//    }
+//    
+//    public var method: Moya.Method {
+//      switch self {
+//        case .doLogin: return .get
+//      }
+//    }
+//    
+//}
+//
+//extension NetworkManager {
+//    
+//    func doLogin(user: String,pass: String,completion: @escaping (Result<UserInfo, Error>) -> ()) {
+//        request(target: MultiTarget(MainNetworkingAPI.doLogin), completion: { (results) in
+//            completion(results)
+//        })
+//      }
+//}
