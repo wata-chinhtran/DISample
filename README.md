@@ -1,6 +1,5 @@
-# DISample
-DISample is internal project for support build modular architecture.It's inject two external module: Login Modular & Product Modular 
-
+# MainModuleExample
+MainModuleExample is internal project for support build modular architecture.It's inject two external module: Common & Feature Modular 
 
 How's to install: 
 
@@ -8,9 +7,9 @@ How's to install:
 2. git submodule update --init --recursive , if you want change to latest commit of submodule then use "git submodule update --remote --merge"
 3. Pod install
 
-Happy Coding
+<!-- Happy Coding
 
-<img src= "https://github.com/phoenixit99/DISample/blob/master/di_sample.png" />
+<img src= "https://github.com/phoenixit99/DISample/blob/master/di_sample.png" /> -->
 
 # How's to setup project with submodules? Here is step by steps for setup:
 1. Create a repo as Main module
