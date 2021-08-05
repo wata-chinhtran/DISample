@@ -1,9 +1,9 @@
-[submodule "Networking"]
-	path = Networking
-	url = https://github.com/wata-chinhtran/DINetworking.git
-[submodule "ProductModules"]
-	path = ProductModules
-	url = https://github.com/wata-chinhtrann/SecondModular.git
-[submodule "ServiceModules"]
-	path = ServiceModules
-	url = https://github.com/wata-chinhtran/FirstModular.git
+[submodule "CommonModule"]
+	path = ./CommonModule
+	url = https://github.com/wata-chinhtran/CommonModule.git
+[submodule "FeatureModule"]
+	path = ./FeatureModule
+	url = https://github.com/wata-chinhtran/FeatureModule.git
+[submodule "TestAddModule"]
+	path = ./TestAddModule
+	url = https://github.com/wata-chinhtran/TestAddModule.git

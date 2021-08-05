@@ -1,6 +1,0 @@
-framework module ClientFramework {
-  umbrella header "ClientFramework-umbrella.h"
-
-  export *
-  module * { export * }
-}
