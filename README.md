@@ -7,9 +7,9 @@ How's to install:
 2. git submodule update --init --recursive , if you want change to latest commit of submodule then use "git submodule update --remote --merge"
 3. Pod install
 
-<!-- Happy Coding
+-- Workflow:
 
-<img src= "https://github.com/phoenixit99/DISample/blob/master/di_sample.png" /> -->
+<img src= "https://github.com/phoenixit99/DISample/blob/master/MainModuleEx.jpg" />
 
 # How's to setup project with submodules? Here is step by steps for setup:
 1. Create a repo as Main module
