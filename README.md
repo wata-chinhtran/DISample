@@ -9,7 +9,7 @@ How's to install:
 
 -- Workflow:
 
-<img src= "https://github.com/phoenixit99/DISample/blob/master/MainModuleEx.jpg" />
+<img src= "https://github.com/wata-chinhtran/MainModuleExample/blob/master/MainModuleEx.jpg" />
 
 # How's to setup project with submodules? Here is step by steps for setup:
 1. Create a repo as Main module
