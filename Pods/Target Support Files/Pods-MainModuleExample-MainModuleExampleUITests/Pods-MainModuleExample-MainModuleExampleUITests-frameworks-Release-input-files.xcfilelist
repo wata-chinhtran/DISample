@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-MainModuleExample-MainModuleExampleUITests/Pods-MainModuleExample-MainModuleExampleUITests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/CommonModule/CommonModule.framework
+${BUILT_PRODUCTS_DIR}/FeatureModule/FeatureModule.framework
 ${BUILT_PRODUCTS_DIR}/Moya/Moya.framework

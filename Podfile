@@ -6,7 +6,7 @@ target 'MainModuleExample' do
   use_frameworks!
   
   pod 'CommonModule', :path => './Submodules/CommonModule'
-  #pod "ProductFramework", :path => './ProductModules'
+  pod "FeatureModule", :path => './Submodules/FeatureModule'
   #pod "ClientFramework", :path => './ServiceModules'
   
   target 'MainModuleExampleTests' do

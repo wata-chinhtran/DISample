@@ -2,6 +2,8 @@ PODS:
   - Alamofire (5.4.3)
   - CommonModule (1.0.0):
     - Moya
+  - FeatureModule (1.0.0):
+    - Moya
   - Moya (14.0.0):
     - Moya/Core (= 14.0.0)
   - Moya/Core (14.0.0):
@@ -9,6 +11,7 @@ PODS:
 
 DEPENDENCIES:
   - CommonModule (from `./Submodules/CommonModule`)
+  - FeatureModule (from `./Submodules/FeatureModule`)
 
 SPEC REPOS:
   trunk:
@@ -18,12 +21,15 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   CommonModule:
     :path: "./Submodules/CommonModule"
+  FeatureModule:
+    :path: "./Submodules/FeatureModule"
 
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
   CommonModule: ae4028165965e94d16bdbd1221c870b385f56e61
+  FeatureModule: 3a838c2f2a4197c84d6020e257502a2a9263cb81
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
 
-PODFILE CHECKSUM: 8053a1682ed69b2373afc72490b39f05c5ea2b52
+PODFILE CHECKSUM: 8c1ea09a6505318c8ceef9ef19f84567cd026336
 
 COCOAPODS: 1.10.1

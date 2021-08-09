@@ -1,3 +1,6 @@
 [submodule "Submodules/CommonModule"]
 	path = Submodules/CommonModule
 	url = https://github.com/wata-chinhtran/CommonModule.git
+[submodule "Submodules/FeatureModule"]
+	path = Submodules/FeatureModule
+	url = https://github.com/wata-chinhtran/FeatureModule.git

@@ -6,7 +6,7 @@
 //
 
 import UIKit
-//import ProductFramework
+import FeatureModule
 //import ClientFramework
 
 class ServicesDetailVC: UIViewController {
@@ -28,11 +28,11 @@ class ServicesDetailVC: UIViewController {
     }
     @IBAction func productActionView(_ sender: Any) {
         
-//        let productVC = ListProductVC()
-//        productVC.viewModel = ListProductViewModelImpl(token: AppSharing.instance.tokenApp, productServices: DIManagement.productServices)
-//        productVC.delegate = self
-//        productVC.modalPresentationStyle = .overFullScreen
-//        self.showDetailViewController(productVC, sender: true)
+        let productVC = ListProductVC()
+        productVC.viewModel = ListProductViewModelImpl(token: AppSharing.instance.tokenApp, productServices: DIManagement.productServices)
+        productVC.delegate = self
+        productVC.modalPresentationStyle = .overFullScreen
+        self.showDetailViewController(productVC, sender: true)
     }
 }
 //extension ServicesDetailVC: ClientInfoDelegate {
@@ -40,8 +40,8 @@ class ServicesDetailVC: UIViewController {
 //        self.btnClient.setTitle(clientTitle.uppercased(), for: .normal)
 //    }
 //}
-//extension ServicesDetailVC: ProductInfoDelegate {
-//    func productCallBack(title: String) {
-//        self.btnProduct.setTitle(title.uppercased(), for: .normal)
-//    }
-//}
+extension ServicesDetailVC: ProductInfoDelegate {
+    func productCallBack(title: String) {
+        self.btnProduct.setTitle(title.uppercased(), for: .normal)
+    }
+}

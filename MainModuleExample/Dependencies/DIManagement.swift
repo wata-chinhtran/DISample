@@ -6,11 +6,11 @@
 //
 
 import Foundation
-//import ProductFramework
+import FeatureModule
 //import ClientFramework
 
 class DIManagement {
     
-//    static let productServices = ListProductServices()
+    static let productServices = ListProductServices()
 //    static let autheticationServices = AuthenticationServices()
 }
