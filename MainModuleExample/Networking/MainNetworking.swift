@@ -36,7 +36,6 @@ extension MainNetworkingAPI: BaseRequest {
 }
 
 extension NetworkManager {
-    
     func doLogin(user: String,pass: String,completion: @escaping (Result<UserInfo, Error>) -> ()) {
         request(target: MultiTarget(MainNetworkingAPI.doLogin), completion: { (results) in
             completion(results)

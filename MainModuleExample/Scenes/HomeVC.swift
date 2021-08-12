@@ -7,7 +7,7 @@
 
 import UIKit
 import CommonModule
-
+import FeatureModule
 class HomeVC: UIViewController {
     
     @IBOutlet weak var txUserName: UITextField!
@@ -29,29 +29,45 @@ class HomeVC: UIViewController {
     
     @IBAction func viewAction(_ sender: Any) {
         
-        guard let userName = self.txUserName.text, !userName.isEmpty else {
-            self.warningAlert()
-            return
-        }
-        guard let password = self.txPassword.text, !password.isEmpty else {
-            self.warningAlert()
-            return
-        }
+//        guard let userName = self.txUserName.text, !userName.isEmpty else {
+//            self.warningAlert()
+//            return
+//        }
+//        guard let password = self.txPassword.text, !password.isEmpty else {
+//            self.warningAlert()
+//            return
+//        }
+//
+//        let networkManagement = NetworkManager.instance
+//        networkManagement.setBaseUrl(baseUrl: "https://google.com")
+//        networkManagement.doLogin(user: userName, pass: password, completion: { (results) in
+//            var info = UserInfo()
+//            info.token = "xxxxxxx"
+////            should save token for use later
+//            AppSharing.instance.tokenApp = info.token
+//            self.showDetailVC()
+//       })
         
-        let networkManagement = NetworkManager.instance
-        networkManagement.setBaseUrl(baseUrl: "https://google.com")
-        networkManagement.doLogin(user: userName, pass: password, completion: { (results) in
-            var info = UserInfo()
-            info.token = "xxxxxxx"
-//            should save token for use later
-            AppSharing.instance.tokenApp = info.token
-            self.showDetailVC()
-       })
+        navigateToFeatureModule()
     }
     private func showDetailVC() {
         let detailVC = ServicesDetailVC()
         self.navigationController?.pushViewController(detailVC, animated: true)
         
     }
-   
+    
+    private func navigateToFeatureModule(){
+        let productVC = ListProductVC()
+        productVC.viewModel = ListProductViewModelImpl(token: AppSharing.instance.tokenApp, productServices: DIManagement.productServices)
+        productVC.delegate = self
+        productVC.modalPresentationStyle = .overFullScreen
+        self.showDetailViewController(productVC, sender: true)
+    }
 }
+
+extension HomeVC: ProductInfoDelegate {
+    func productCallBack(title: String) {
+
+    }
+}
+
