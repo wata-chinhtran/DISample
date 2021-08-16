@@ -21,6 +21,11 @@
   "platforms": {
     "ios": "10.0"
   },
+  "resource_bundles": {
+    "FeatureModule": [
+      "FeatureModule/**/*.{xib,jpeg}"
+    ]
+  },
   "dependencies": {
     "Moya": [
 

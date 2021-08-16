@@ -57,17 +57,9 @@ class HomeVC: UIViewController {
     }
     
     private func navigateToFeatureModule(){
-        let productVC = ListProductVC()
-        productVC.viewModel = ListProductViewModelImpl(token: AppSharing.instance.tokenApp, productServices: DIManagement.productServices)
-        productVC.delegate = self
-        productVC.modalPresentationStyle = .overFullScreen
-        self.showDetailViewController(productVC, sender: true)
+        let featureModule = FeatureModule.initWith(settings: ["services": DIManagement.productServices], token: AppSharing.instance.tokenApp)
+        self.showDetailViewController(featureModule, sender: true)
     }
 }
 
-extension HomeVC: ProductInfoDelegate {
-    func productCallBack(title: String) {
-
-    }
-}
 
